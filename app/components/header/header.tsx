@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <>
-      <div className="fixed flex flex-row items-center justify-around w-full px-12 py-6 bg-white">
+      <div className="fixed flex flex-row items-center justify-around w-full px-12 py-6 bg-white z-50">
         <img src="/images/logo.png" alt="Logo" width={135} height={57} />
 
         <div className="flex flex-row items-center gap-6 text-[#2165E9]">

@@ -1,7 +1,13 @@
+import HeroSection from './components/HeroSection/HeroSection'
+import WhatWeDo from './components/WhatWeDo/WhatWeDo'
+
 const Home = () => {
   return (
     <>
-      <span>Home</span>
+      <div className="pt-[105px]">
+        <HeroSection />
+        <WhatWeDo />
+      </div>
     </>
   )
 }

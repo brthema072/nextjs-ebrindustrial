@@ -1,4 +1,6 @@
 import HeroSection from './components/HeroSection/HeroSection'
+import IndustrialAssemblies from './components/Services/IndustrialAssemblies/IndustrialAssemblies'
+import WheelWash from './components/Services/WheelWash/WheelWash'
 import WhatWeDo from './components/WhatWeDo/WhatWeDo'
 
 const Home = () => {
@@ -7,6 +9,9 @@ const Home = () => {
       <div className="pt-[105px]">
         <HeroSection />
         <WhatWeDo />
+
+        <WheelWash />
+        <IndustrialAssemblies />
       </div>
     </>
   )

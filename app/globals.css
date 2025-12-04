@@ -21,6 +21,18 @@
   }
 }
 
+@layer utilities {
+  .clip-diagonal {
+    /* diagonal igual ao print, metade da tela pra cada cor */
+    clip-path: polygon(
+      0 100%,
+      /* parte esquerda no meio */ 100% 20%,
+      /* topo direito */ 100% 100%,
+      0 100%
+    );
+  }
+}
+
 body {
   background: var(--background);
   color: var(--foreground);

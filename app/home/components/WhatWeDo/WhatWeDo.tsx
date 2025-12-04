@@ -21,17 +21,23 @@ const WhatWeDo = () => {
 
   return (
     <>
-      <div className="flex flex-col items-center justify-center w-full h-auto mt-[50px] gap-[50px]">
-        <h1 className="text-gray-600 text-4xl max-w-4xl text-center font-bold leading-normal">
-          O QUE FAZEMOS?
-        </h1>
+      <section className="relative w-full overflow-hidden py-24">
+        <div className="absolute inset-0 bg-white"></div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 ">
-          {cards.map((card, index) => (
-            <Card key={index} title={card.title} description={card.description} />
-          ))}
+        <div className="absolute inset-0 bg-[#3E556F] clip-diagonal"></div>
+
+        <div className="relative flex flex-col items-center justify-center w-full h-auto mt-[50px] gap-[50px] z-10">
+          <h1 className="text-[#757575] text-4xl max-w-4xl text-center font-bold leading-normal">
+            O QUE FAZEMOS?
+          </h1>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 ">
+            {cards.map((card, index) => (
+              <Card key={index} title={card.title} description={card.description} />
+            ))}
+          </div>
         </div>
-      </div>
+      </section>
     </>
   )
 }

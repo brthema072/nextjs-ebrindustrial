@@ -6,8 +6,8 @@ const Header = () => {
 
         <div className="absolute inset-0 bg-[#3E556F] opacity-80"></div>
 
-        <div className="absolute inset-0 bg-white clip-left-bottom"></div>
-        <div className="absolute inset-0 bg-white clip-right-bottom"></div>
+        <div className="absolute inset-0 bg-[#F7F7F7] clip-left-bottom"></div>
+        <div className="absolute inset-0 bg-[#F7F7F7] clip-right-bottom"></div>
 
         <div className="relative z-10 w-full mx-auto  h-full flex flex-col items-center justify-center">
           <h1 className="text-7xl font-bold text-yellow-400">Montagens industriais</h1>

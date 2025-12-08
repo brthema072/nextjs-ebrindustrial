@@ -11,6 +11,7 @@ const Home = () => {
         <WhatWeDo />
 
         <WheelWash />
+        <div className="h-28" />
         <IndustrialAssemblies />
       </div>
     </>

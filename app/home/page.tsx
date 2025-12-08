@@ -3,6 +3,7 @@ import IndustrialAssemblies from './components/Services/IndustrialAssemblies/Ind
 import OurClients from './components/OurClinets/OurClients'
 import WheelWash from './components/Services/WheelWash/WheelWash'
 import WhatWeDo from './components/WhatWeDo/WhatWeDo'
+import WhatOurCustomersSay from './components/WhatYourCustomersSay/WhatOurCustimersSay'
 
 const Home = () => {
   return (
@@ -16,6 +17,8 @@ const Home = () => {
         <IndustrialAssemblies />
 
         <OurClients />
+
+        <WhatOurCustomersSay />
       </div>
     </>
   )

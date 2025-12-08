@@ -41,7 +41,7 @@ const Body = () => {
           </Link>
         </div>
 
-        <div className="grid grid-cols-3 gap-6 mt-16">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-16">
           <Link href="/wheel-wash" target="_blank">
             <div className="bg-blue-500 text-white rounded-lg shadow w-[320px] h-[180px]">
               <h3 className="text-xl font-bold">Foto</h3>

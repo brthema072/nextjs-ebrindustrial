@@ -4,6 +4,7 @@ import OurClients from './components/OurClinets/OurClients'
 import WheelWash from './components/Services/WheelWash/WheelWash'
 import WhatWeDo from './components/WhatWeDo/WhatWeDo'
 import WhatOurCustomersSay from './components/WhatYourCustomersSay/WhatOurCustimersSay'
+import Quote from './components/Quote/Quote'
 
 const Home = () => {
   return (
@@ -19,6 +20,8 @@ const Home = () => {
         <OurClients />
 
         <WhatOurCustomersSay />
+        <div className="h-24 bg-white" />
+        <Quote />
       </div>
     </>
   )

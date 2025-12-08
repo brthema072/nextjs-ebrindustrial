@@ -33,24 +33,34 @@ const Header = () => {
           >
             <span>Montagem industriais</span>
             <div
-              className={`absolute mt-2 w-48 bg-white border border-gray-200 rounded-md shadow-lg transition-all duration-200 origin-top ${
+              className={`absolute mt-2 w-56 bg-white border border-gray-200 rounded-md shadow-lg transition-all duration-200 origin-top ${
                 open ? 'scale-100 opacity-100' : 'scale-95 opacity-0 pointer-events-none'
               }`}
             >
               <ul className="py-2">
                 <li>
+                  <a href="/" className="block px-4 py-2 hover:bg-gray-100">
+                    Peneira Rotativa (TROMMEL)
+                  </a>
+                </li>
+                <li>
+                  <a href="/" className="block px-4 py-2 hover:bg-gray-100">
+                    Usina Reciclagem Entulho RCC
+                  </a>
+                </li>
+                <li>
+                  <a href="/" className="block px-4 py-2 hover:bg-gray-100">
+                    Britadores
+                  </a>
+                </li>
+                <li>
                   <a href="/wheel-wash" className="block px-4 py-2 hover:bg-gray-100">
-                    Lava Rodas
+                    Lava Rodas EBR1296
                   </a>
                 </li>
                 <li>
                   <a href="/" className="block px-4 py-2 hover:bg-gray-100">
-                    Item 2
-                  </a>
-                </li>
-                <li>
-                  <a href="/" className="block px-4 py-2 hover:bg-gray-100">
-                    Item 3
+                    Estruturas Metálicas
                   </a>
                 </li>
               </ul>

@@ -1,6 +1,6 @@
 import HeroSection from './components/HeroSection/HeroSection'
 import IndustrialAssemblies from './components/Services/IndustrialAssemblies/IndustrialAssemblies'
-import OurClients from './components/Services/OurClinets/OurClients'
+import OurClients from './components/OurClinets/OurClients'
 import WheelWash from './components/Services/WheelWash/WheelWash'
 import WhatWeDo from './components/WhatWeDo/WhatWeDo'
 

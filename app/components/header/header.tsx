@@ -67,7 +67,7 @@ const Header = () => {
             </div>
           </div>
 
-          <Link href="/">Contato e orçamentos</Link>
+          <Link href="/quote">Contato e orçamentos</Link>
         </div>
       </div>
     </>

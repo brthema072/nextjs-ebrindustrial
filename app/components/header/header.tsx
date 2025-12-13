@@ -25,7 +25,7 @@ const Header = () => {
 
         <div className="flex flex-row items-center gap-6 text-[#2165E9]">
           <Link href="/home">Home</Link>
-          <Link href="/">Equipamentos</Link>
+          <Link href="/equipment">Equipamentos</Link>
           <div
             className="relative cursor-pointer select-none"
             ref={ref}

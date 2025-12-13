@@ -8,9 +8,7 @@ const Equipment = () => {
           <div className="absolute inset-0 m-auto bg-[url('/images/bg-home.png')] bg-cover bg-center w-[98%] my-4 rounded-sm"></div>
           <div className="absolute inset-0 bg-[rgb(5,27,55)] opacity-20"></div>
 
-          <div className="relative">
-            <h1 className="text-4xl font-bold text-white text-center">Equipamentos</h1>
-          </div>
+          <h1 className="relative text-4xl font-bold text-white text-center">Equipamentos</h1>
         </div>
 
         <div className="flex flex-col items-center justify-center w-full h-auto gap-4 py-14">
@@ -23,7 +21,7 @@ const Equipment = () => {
           </span>
         </div>
 
-        <div className="flex items-center justify-center w-full h-auto">
+        <div className="flex items-center justify-center w-full h-auto mb-14">
           <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-auto h-auto gap-4">
             <Link href="/" target="_blank" className="w-[320px]">
               <div className="bg-blue-500 text-white rounded-lg shadow w-full h-[180px]">

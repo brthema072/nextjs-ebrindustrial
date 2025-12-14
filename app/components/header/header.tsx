@@ -39,7 +39,7 @@ const Header = () => {
             >
               <ul className="py-2">
                 <li>
-                  <a href="/" className="block px-4 py-2 hover:bg-gray-100">
+                  <a href="/rotary-sieve" className="block px-4 py-2 hover:bg-gray-100">
                     Peneira Rotativa (TROMMEL)
                   </a>
                 </li>

@@ -44,12 +44,15 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="/" className="block px-4 py-2 hover:bg-gray-100">
+                  <a
+                    href="/construction-demolition-wast-recycling"
+                    className="block px-4 py-2 hover:bg-gray-100"
+                  >
                     Usina Reciclagem Entulho RCC
                   </a>
                 </li>
                 <li>
-                  <a href="/" className="block px-4 py-2 hover:bg-gray-100">
+                  <a href="/crusher" className="block px-4 py-2 hover:bg-gray-100">
                     Britadores
                   </a>
                 </li>
@@ -59,7 +62,7 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="/" className="block px-4 py-2 hover:bg-gray-100">
+                  <a href="/metal-structure" className="block px-4 py-2 hover:bg-gray-100">
                     Estruturas Metálicas
                   </a>
                 </li>

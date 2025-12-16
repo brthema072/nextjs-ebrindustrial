@@ -21,7 +21,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="fixed flex flex-row items-start md:items-center justify-around w-full px-12 py-6 bg-white z-50">
+      <div className="fixed flex flex-row items-start md:items-center justify-between md:justify-around w-full px-12 py-6 bg-white z-50">
         <img src="/images/logo.png" alt="Logo" width={135} height={57} />
 
         <div className="flex flex-col items-end md:items-center">
@@ -35,7 +35,7 @@ const Header = () => {
           <div
             className={`${
               menuOpen ? 'flex' : 'hidden'
-            } flex flex-col md:flex-row items-end md:items-center h-screen md:h-auto gap-6 text-[#2165E9] text-end md:text-center`}
+            } md:flex flex-col md:flex-row items-end md:items-center h-screen md:h-auto gap-6 text-[#2165E9] text-end md:text-center`}
           >
             <Link href="/home">Home</Link>
             <Link href="/equipment">Equipamentos</Link>

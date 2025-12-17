@@ -19,8 +19,8 @@ const crusher = () => {
             />
           </div>
 
-          <div className="flex flex-col items-center justify-center w-[80%] h-auto gap-4">
-            <span className="text-start">
+          <div className="flex flex-col items-center justify-center h-auto gap-4 px-4">
+            <span className="text-justify">
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
               has been the industry's standard dummy text ever since the 1500s, when an unknown
               printer took a galley of type and scrambled it to make a type specimen book. It has
@@ -30,7 +30,7 @@ const crusher = () => {
               publishing software like Aldus PageMaker including versions of Lorem Ipsum.
             </span>
 
-            <span className="text-start">
+            <span className="text-justify">
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
               has been the industry's standard dummy text ever since the 1500s, when an unknown
               printer took a galley of type and scrambled it to make a type specimen book. It has

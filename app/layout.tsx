@@ -3,6 +3,7 @@ import { Montserrat } from 'next/font/google'
 import './globals.css'
 import Header from './components/header/header'
 import Footer from './components/footer/footer'
+import { Suspense } from 'react'
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -23,7 +24,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${montserrat.variable} `}>
       <body className={`${montserrat.className} antialiased`}>
-        <Header />
+        <Suspense fallback={<div className="text-center text-gray-400 py-8">Carregando...</div>}>
+          <Header />
+        </Suspense>
 
         {children}
 

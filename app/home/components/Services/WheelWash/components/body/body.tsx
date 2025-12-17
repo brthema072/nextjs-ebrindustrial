@@ -12,7 +12,7 @@ const Body = () => {
 
         <div className="w-[50%] mt-2 border-b border-gray-200"></div>
 
-        <div className="flex flex-col items-stretch justify-center w-[40%] gap-4 mt-8">
+        <div className="flex flex-col items-stretch justify-center w-[80%] md:w-[50%] gap-4 mt-8">
           <span className="text-left text-lg">
             O <span className="font-bold">Lava Rodas EBR1296</span> tem uma capacidade de segregação
             de resíduos excepcional, garantindo uma limpeza eficiente e sustentável. Com manutenções

@@ -12,7 +12,7 @@ const Body = () => {
 
         <div className="w-[50%] mt-2 border-b border-gray-200"></div>
 
-        <div className="flex flex-col items-stretch justify-center w-[50%] gap-4 mt-8">
+        <div className="flex flex-col items-stretch justify-center w-[80%] md:w-[50%] gap-4 mt-8">
           <span className="text-left text-lg">
             Na EBR Industrial, oferecemos serviços completos de montagens industriais que vão além
             de estruturas simples. Nossa equipe altamente qualificada e experiente está preparada

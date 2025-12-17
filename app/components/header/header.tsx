@@ -54,9 +54,9 @@ const Header = () => {
             >
               <span>Montagem industriais</span>
               <div
-                className={`md:absolute mt-2 w-56 bg-white border border-gray-200 rounded-md shadow-lg transition-all duration-200 origin-top ${
+                className={`absolute mt-2 w-56 bg-white border border-gray-200 rounded-md shadow-lg transition-all duration-200 origin-top ${
                   openEquipments
-                    ? 'scale-100 opacity-100 block'
+                    ? 'scale-100 opacity-100 block right-1'
                     : 'scale-95 opacity-0 pointer-events-none hidden'
                 }`}
               >

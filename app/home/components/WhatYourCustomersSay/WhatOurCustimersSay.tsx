@@ -2,7 +2,9 @@ const WhatOurCustomersSay = () => {
   return (
     <>
       <div className="flex flex-col items-center justify-center bg-white pt-16">
-        <h1 className="text-4xl text-[#757575] font-semibold">O QUE DIZEM NOSSOS CLIENTES</h1>
+        <h1 className="text-lg md:text-4xl text-[#757575] font-semibold">
+          O QUE DIZEM NOSSOS CLIENTES
+        </h1>
 
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-16 gap-20">
           <div className="flex flex-col items-center justify-center w-3xs">

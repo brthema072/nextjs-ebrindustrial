@@ -4,10 +4,12 @@ const Quote = () => {
   return (
     <>
       <div className="flex flex-col items-center justify-center bg-[linear-gradient(100deg,rgba(33,101,233,0.7)_0%,#2165E9_36.8%)] w-full h-auto py-20 gap-16">
-        <h1 className="text-5xl text-white font-semibold">SOLICITE AGORA UM ORÇAMENTO</h1>
+        <h1 className="text-xl md:text-5xl text-white font-semibold">
+          SOLICITE AGORA UM ORÇAMENTO
+        </h1>
 
         <Link href="/quote" target="_blank">
-          <button className="flex flex-row items-center justify-center border-8 border-[#bada55] rounded-md text-3xl text-white p-8 font-semibold hover:bg-[#68B04D] transition-colors delay-100 cursor-pointer">
+          <button className="flex flex-row items-center justify-center border-8 border-[#bada55] rounded-md text-lg md:text-3xl text-white p-8 font-semibold hover:bg-[#68B04D] transition-colors delay-100 cursor-pointer">
             <span>SOLICITAR ORÇAMENTO</span>
             <svg
               className="w-8 h-w-8 text-white fill-current"

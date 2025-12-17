@@ -1,23 +1,31 @@
 'use client'
 
 import Link from 'next/link'
+import { usePathname, useSearchParams } from 'next/navigation'
 import { useState, useRef, useEffect } from 'react'
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false)
-  const [open, setOpen] = useState(false)
+  const [openEquipments, setOpenEquipaments] = useState(false)
   const ref = useRef<HTMLDivElement>(null)
+
+  const pathname = usePathname()
+  const searchParams = useSearchParams()
 
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
       if (ref.current && !ref.current.contains(e.target as Node)) {
-        setOpen(false)
+        setOpenEquipaments(false)
       }
     }
 
     document.addEventListener('mousedown', handleClickOutside)
     return () => document.removeEventListener('mousedown', handleClickOutside)
   }, [])
+
+  useEffect(() => {
+    setMenuOpen((prev) => !prev)
+  }, [pathname, searchParams])
 
   return (
     <>
@@ -42,34 +50,34 @@ const Header = () => {
             <div
               className="relative cursor-pointer select-none"
               ref={ref}
-              onClick={() => setOpen(!open)}
+              onClick={() => setOpenEquipaments(!openEquipments)}
             >
               <span>Montagem industriais</span>
               <div
                 className={`md:absolute mt-2 w-56 bg-white border border-gray-200 rounded-md shadow-lg transition-all duration-200 origin-top ${
-                  open
+                  openEquipments
                     ? 'scale-100 opacity-100 block'
                     : 'scale-95 opacity-0 pointer-events-none hidden'
                 }`}
               >
                 <ul className="py-2">
                   <li>
-                    <a href="/rotary-sieve" className="block px-4 py-2 hover:bg-gray-100">
+                    <Link href="/rotary-sieve" className="block px-4 py-2 hover:bg-gray-100">
                       Peneira Rotativa (TROMMEL)
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href="/construction-demolition-wast-recycling"
                       className="block px-4 py-2 hover:bg-gray-100"
                     >
                       Usina Reciclagem Entulho RCC
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="/crusher" className="block px-4 py-2 hover:bg-gray-100">
+                    <Link href="/crusher" className="block px-4 py-2 hover:bg-gray-100">
                       Britadores
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <a href="/wheel-wash" className="block px-4 py-2 hover:bg-gray-100">
@@ -77,9 +85,9 @@ const Header = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="/metal-structure" className="block px-4 py-2 hover:bg-gray-100">
+                    <Link href="/metal-structure" className="block px-4 py-2 hover:bg-gray-100">
                       Estruturas Metálicas
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

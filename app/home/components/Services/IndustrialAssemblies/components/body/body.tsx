@@ -5,7 +5,7 @@ const Body = () => {
     <>
       <div className="flex flex-col items-center justify-center w-full h-auto inset-0">
         <div className="w-[40%] text-center inset-0 pt-8 pb-4">
-          <h1 className="text-[2.5rem] font-bold text-[#232323] md:text-4xl">
+          <h1 className="text-xl md:text-[2.5rem] font-bold text-[#232323] md:text-4xl">
             Precisão e inovação para elevar sua operação ao próximo nível
           </h1>
         </div>

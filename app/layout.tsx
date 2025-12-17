@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${montserrat.variable} `}>
       <body className={`${montserrat.className} antialiased`}>
-        <Suspense fallback={<div className="text-center text-gray-400 py-8">Carregando...</div>}>
+        <Suspense fallback={null}>
           <Header />
         </Suspense>
 

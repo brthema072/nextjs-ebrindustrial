@@ -8,7 +8,7 @@ const WhatOurCustomersSay = () => {
 
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-16 gap-20">
           <div className="flex flex-col items-center justify-center w-3xs">
-            <span className="text-sm text-center">
+            <span className="text-sm text-justify md:text-center">
               Trabalhar com a EBR Industrial foi uma excelente experiência. Precisávamos de uma
               solução eficiente para a lavagem das rodas dos nossos caminhões e o Lava Rodas ERB1296
               superou nossas expectativas, economizando 95% da água utilizada. A equipe foi
@@ -20,7 +20,7 @@ const WhatOurCustomersSay = () => {
           </div>
 
           <div className="flex flex-col items-center justify-center  w-3xs">
-            <span className="text-sm text-center">
+            <span className="text-sm text-justify md:text-center">
               A expertise da EBR Industrial em montagens industriais é inigualável. Eles não apenas
               cuidaram das estruturas, mas também implementaram sistemas complexos que aumentaram
               significativamente nossa produtividade. A atenção aos detalhes e o compromisso com a
@@ -32,7 +32,7 @@ const WhatOurCustomersSay = () => {
           </div>
 
           <div className="flex flex-col items-center justify-center  w-3xs">
-            <span className="text-sm text-center">
+            <span className="text-sm text-justify md:text-center">
               A expertise da EBR Industrial em montagens industriais é inigualável. Eles não apenas
               cuidaram das estruturas, mas também implementaram sistemas complexos que aumentaram
               significativamente nossa produtividade. A atenção aos detalhes e o compromisso com a

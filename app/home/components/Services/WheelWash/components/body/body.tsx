@@ -4,7 +4,7 @@ const Body = () => {
   return (
     <>
       <div className="flex flex-col items-center justify-center w-full h-auto inset-0">
-        <div className="w-[40%] text-center inset-0 pt-8 pb-4">
+        <div className="w-[80%] md:w-[40%] text-center inset-0 pt-8 pb-4">
           <h1 className="text-xl md:text-[2.5rem] font-bold text-[#232323] md:text-4xl">
             Versátil com o melhor custo-benefício do mercado
           </h1>
@@ -13,19 +13,19 @@ const Body = () => {
         <div className="w-[50%] mt-2 border-b border-gray-200"></div>
 
         <div className="flex flex-col items-stretch justify-center w-[80%] md:w-[50%] gap-4 mt-8">
-          <span className="text-left text-lg">
+          <span className="text-justify md:text-left text-lg">
             O <span className="font-bold">Lava Rodas EBR1296</span> tem uma capacidade de segregação
             de resíduos excepcional, garantindo uma limpeza eficiente e sustentável. Com manutenções
             periódicas, o equipamento tem uma vida útil prolongada, proporcionando confiabilidade e
             durabilidade.
           </span>
 
-          <span className="text-left text-lg">
+          <span className="text-justify md:text-left text-lg">
             O equipamento é composto por duas partes: uma estrutura monobloco por onde passam os
             veículos e um tanque de reciclo.
           </span>
 
-          <span className="text-left text-lg">
+          <span className="text-justify md:text-left text-lg">
             Sua mobilidade e montagem podem ser feita sem a necessidade de recursos dispendiosos,
             dispensando totalmente qualquer tipo de obra civil; O equipamento pode ser colocado
             sobre qualquer tipo de solo, sem necessidade de escavações ou tempo adicional para

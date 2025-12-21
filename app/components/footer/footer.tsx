@@ -23,7 +23,7 @@ const Footer = () => {
         <div className="grid place-items-start content-center min-h-64 px-[25%] gap-4">
           <span className="font-semibold">ENDEREÇO</span>
           <span className="text-[#A0A09F]">
-            Estr. Oswaldo Pires de Camargo, 115 Votorantim - SP 18117-803
+            Avenida Jaziel de Azeredo Ribeiro, 1238 Votorantim - SP 18112-180
           </span>
         </div>
       </div>

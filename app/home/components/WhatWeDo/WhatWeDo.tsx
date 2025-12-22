@@ -5,7 +5,7 @@ const WhatWeDo = () => {
     {
       title: 'EQUIPAMENTOS',
       description:
-        'Fabricamos equipamentos inovadores e trabalhamos sob projeto,oferecendo soluções personalizadas para atender às necessidades específicas do seu negócio. Nossa expertise garante eficiência e sustentabilidade em cada produto.',
+        'Fabricamos equipamentos inovadores e trabalhamos sob projeto, oferecendo soluções personalizadas para atender às necessidades específicas do seu negócio. Nossa expertise garante eficiência e sustentabilidade em cada produto.',
     },
     {
       title: 'MONTAGENS INDUSTRIAIS',

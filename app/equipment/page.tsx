@@ -13,7 +13,7 @@ const Equipment = () => {
 
         <div className="flex flex-col items-center justify-center w-full h-auto gap-4 py-14">
           <h1 className="text-2xl text-[#1e2d3b] font-semibold">Nossos Equipamentos</h1>
-          <span className="text-justify md:text-center text-lg w-[80%] md:w-[50%]">
+          <span className="text-justify break-normal hyphens-auto text-lg w-[80%] md:w-[50%]">
             A EBR é fundamentada na vasta experiência de sua diretoria e equipe técnica, atuando nas
             áreas de montagem industrial, caldeiraria, usinagem, manutenção geral e fabricação de
             equipamentos ecológicos, atendendo tanto a projetos próprios quanto a projetos

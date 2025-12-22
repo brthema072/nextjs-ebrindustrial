@@ -13,7 +13,7 @@ const HeroSection = () => {
           </h1>
 
           <h3 className="text-gray-300 text-2xl max-w-3xl text-center mt-20">
-            Com mais de uma década de experiência, a{' '}
+            Com mais de uma década de experiência, a
             <span className="font-bold text-white">EBR Industrial</span> fornece serviços de alta
             qualidade para a indústria brasileira
           </h3>

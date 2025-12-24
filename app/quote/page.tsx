@@ -31,13 +31,13 @@ const Quote = () => {
     <>
       <div className="pt-[105px] bg-[#F7F7F7]">
         <div className="flex flex-col items-center justify-center w-full h-auto py-10">
-          <h1 className="text-5xl text-[#1e2d3b] font-semibold">Solicitar orçamento</h1>
+          <h1 className="text-2xl md:text-5xl text-[#1e2d3b] font-semibold">Solicitar orçamento</h1>
 
           <form
             onSubmit={handleSubmit}
-            className="flex flex-col items-center justify-ceitems-center w-auto h-auto gap-6 mt-10"
+            className="flex flex-col items-center justify-center w-auto h-auto gap-6 mt-10"
           >
-            <div className="flex flex-col items-start justify-center w-full h-auto">
+            <div className="flex flex-col items-start justify-center w-full h-auto px-4 md:px-0">
               <span className="text-lg text-[#3b3a3a] font-bold">Nome:</span>
               <input
                 type="text"
@@ -46,7 +46,7 @@ const Quote = () => {
               />
             </div>
 
-            <div className="flex flex-col items-start justify-center w-full h-auto">
+            <div className="flex flex-col items-start justify-center w-full h-auto px-4 md:px-0">
               <span className="text-lg text-[#3b3a3a] font-bold">Email:</span>
               <input
                 type="email"
@@ -55,7 +55,7 @@ const Quote = () => {
               />
             </div>
 
-            <div className="flex flex-col items-start justify-center w-full h-auto">
+            <div className="flex flex-col items-start justify-center w-full h-auto px-4 md:px-0">
               <span className="text-lg text-[#3b3a3a] font-bold">Telefone:</span>
               <input
                 type="tel"
@@ -64,7 +64,7 @@ const Quote = () => {
               />
             </div>
 
-            <div className="flex flex-col items-start justify-center w-full h-auto">
+            <div className="flex flex-col items-start justify-center w-full h-auto px-4 md:px-0">
               <span className="text-lg text-[#3b3a3a] font-bold">Empresa:</span>
               <input
                 type="text"
@@ -73,7 +73,7 @@ const Quote = () => {
               />
             </div>
 
-            <div className="flex flex-col items-start justify-center w-full h-auto">
+            <div className="flex flex-col items-start justify-center w-full h-auto px-4 md:px-0">
               <span className="text-lg text-[#3b3a3a] font-bold">Solicitar orçamento de:</span>
               <select
                 name="services"
@@ -89,7 +89,7 @@ const Quote = () => {
               </select>
             </div>
 
-            <div className="flex flex-col items-start justify-center w-full h-auto">
+            <div className="flex flex-col items-start justify-center w-full h-auto px-4 md:px-0">
               <span className="text-lg text-[#3b3a3a] font-bold">
                 Informações adicionais (opcional):
               </span>
@@ -101,7 +101,7 @@ const Quote = () => {
               ></textarea>
             </div>
 
-            <div className="flex flex-col items-start justify-center w-full h-auto">
+            <div className="flex flex-col items-start justify-center w-full h-auto px-4 md:px-0">
               {loading ? (
                 <div
                   className="w-16 h-16 border-4 border-t-transparent rounded-full animate-spin text-[#2165e9]"

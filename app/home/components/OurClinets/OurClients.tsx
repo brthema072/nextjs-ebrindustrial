@@ -9,7 +9,7 @@ const OurClients = () => {
             <img src="/images/amyris-logo.png" className="object-contain max-h-full max-w-full" />
           </div>
 
-          <div className="w-40 h-[90px] rounded-lg">
+          <div className="w-40 h-[90px] rounded-lg flex items-center justify-center">
             <img
               src="/images/john-deere-logo.png"
               className="object-contain max-h-full max-w-full"

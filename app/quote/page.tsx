@@ -1,15 +1,28 @@
 'use client'
 
 import { useState } from 'react'
+import Notification from '../components/notification/Notification'
 
 const Quote = () => {
   const [loading, setLoading] = useState<boolean>(false)
+  const [showAlert, setShowAlert] = useState<boolean>(false)
+  const [showInvalidFormAlert, setShowInvalidFormAlert] = useState<boolean>(false)
+  const [invalidAlertKey, setInvalidAlertKey] = useState(0)
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault()
     setLoading(true)
+    setShowAlert(false)
 
     const form = new FormData(e.currentTarget)
+
+    if (form.get('name') === '' || form.get('email') === '' || form.get('services') === '') {
+      setLoading(false)
+      setInvalidAlertKey((prev) => prev + 1)
+      setShowInvalidFormAlert(true)
+
+      return
+    }
 
     await fetch('/api/send-email', {
       method: 'POST',
@@ -25,10 +38,27 @@ const Quote = () => {
     })
 
     setLoading(false)
+    setShowAlert(true)
   }
 
   return (
     <>
+      {showAlert && !loading && (
+        <Notification
+          title="E-mail enviado com sucesso!"
+          description="A equipe EBR entrará em contato em instantes!"
+        />
+      )}
+
+      {showInvalidFormAlert && (
+        <Notification
+          key={invalidAlertKey}
+          title="Formulário inválido"
+          description="Os campos NOME, EMAIL e SERVIÇOS são obrigatórios!"
+          error={true}
+        />
+      )}
+
       <div className="pt-[105px] bg-[#F7F7F7]">
         <div className="flex flex-col items-center justify-center w-full h-auto py-10">
           <h1 className="text-2xl md:text-5xl text-[#1e2d3b] font-semibold">Solicitar orçamento</h1>

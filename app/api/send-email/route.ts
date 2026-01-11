@@ -10,8 +10,8 @@ export async function POST(req: Request) {
       port: 587,
       secure: false,
       auth: {
-        user: 'dev.brunomarthe@gmail.com',
-        pass: 'passkey',
+        user: 'no-reply@ebrindustrial.com',
+        pass: process.env.GOOGLE_APP_PASSWORD,
       },
     })
 

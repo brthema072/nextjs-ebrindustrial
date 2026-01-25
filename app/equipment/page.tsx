@@ -21,7 +21,7 @@ const Equipment = () => {
           </span>
         </div>
 
-        <div className="flex items-center justify-center w-full h-auto">
+        <div className="flex items-center justify-center w-full h-auto pb-14">
           <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-auto h-auto gap-4">
             <Link href="/" target="_blank" className="w-[320px]">
               <div className="bg-[url('/images/equipaments-card-1.jpeg')] bg-cover inset-0 rounded-lg shadow w-full h-[180px]"></div>

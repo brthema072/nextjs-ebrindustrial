@@ -2,7 +2,7 @@ const Header = () => {
   return (
     <>
       <div className="relative h-[420px] md:h-[337px] bg-cover bg-center">
-        <div className="absolute inset-0 bg-[url('/images/bg-home.png')] bg-cover bg-center bg-fixed"></div>
+        <div className="absolute inset-0 bg-[url('/images/bg-home.jpeg')] bg-cover bg-center bg-fixed"></div>
 
         <div className="absolute inset-0 bg-[#3E556F] opacity-80"></div>
 

@@ -2,7 +2,7 @@ const HeroSection = () => {
   return (
     <>
       <div className="relative h-screen">
-        <div className="absolute inset-0 bg-[url('/images/bg-home.png')] bg-cover bg-center bg-fixed"></div>
+        <div className="absolute inset-0 bg-[url('/images/bg-home.jpeg')] bg-cover bg-center bg-fixed"></div>
 
         <div className="absolute inset-0 bg-[rgb(5,27,55)] opacity-80"></div>
 

@@ -67,21 +67,15 @@ const Body = () => {
 
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-16">
           <Link href="/" target="_blank">
-            <div className="bg-blue-500 text-white rounded-lg shadow w-[320px] h-[180px]">
-              <h3 className="text-xl font-bold">Foto</h3>
-            </div>
+            <div className="bg-[url('/images/industrial-assemblies-card-1.jpeg')] bg-cover inset-0 rounded-lg shadow w-[320px] h-[180px]"></div>
           </Link>
 
           <Link href="/" target="_blank">
-            <div className="bg-blue-500 text-white rounded-lg shadow w-[320px] h-[180px]">
-              <h3 className="text-xl font-bold">Foto</h3>
-            </div>
+            <div className="bg-[url('/images/industrial-assemblies-card-2.jpeg')] bg-cover inset-0 rounded-lg shadow w-[320px] h-[180px]"></div>
           </Link>
 
           <Link href="/" target="_blank">
-            <div className="bg-blue-500 text-white rounded-lg shadow w-[320px] h-[180px]">
-              <h3 className="text-xl font-bold">Foto</h3>
-            </div>
+            <div className="bg-[url('/images/industrial-assemblies-card-3.jpeg')] bg-cover inset-0 rounded-lg shadow w-[320px] h-[180px]"></div>
           </Link>
         </div>
       </div>

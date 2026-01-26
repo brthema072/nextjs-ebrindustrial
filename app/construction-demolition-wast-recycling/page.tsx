@@ -6,12 +6,12 @@ const ConstructionDemolitionWastRecycling = () => {
           <div className="absolute inset-0 m-auto bg-[url('/images/bg-home.jpeg')] bg-cover bg-center w-[98%] my-4 rounded-sm"></div>
           <div className="absolute inset-0 bg-[rgb(5,27,55)] opacity-20"></div>
 
-          <h1 className="relative text-4xl font-bold text-white text-center">
+          <h1 className="relative text-4xl font-bold text-shadow-lg/30 text-white text-center">
             Usina Reciclagem Entulho RCC
           </h1>
         </div>
 
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 py-10">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 py-10 gap-8 md:gap-0">
           <div className="flex flex-row items-center justify-center w-full">
             <img
               src="/images/bg-home.jpeg"

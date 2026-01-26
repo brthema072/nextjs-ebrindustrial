@@ -23,23 +23,29 @@ const RotarySieve = () => {
 
           <div className="flex flex-col items-center justify-center h-auto gap-4 px-4">
             <span className="text-justify break-normal hyphens-auto">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-              has been the industry's standard dummy text ever since the 1500s, when an unknown
-              printer took a galley of type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into electronic typesetting,
-              remaining essentially unchanged. It was popularised in the 1960s with the release of
-              Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              A <span className="font-bold">Peneira Rotativa (Trommel)</span> é um equipamento de
+              alto desempenho projetado para a separação e classificação de materiais sólidos por
+              granulometria, atendendo com eficiência às demandas de processos industriais
+              contínuos. Seu sistema de peneiramento é composto por um tambor cilíndrico rotativo
+              perfurado, que promove a separação precisa dos materiais conforme o tamanho das
+              partículas, garantindo maior controle e uniformidade no processo.
             </span>
 
             <span className="text-justify break-normal hyphens-auto">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-              has been the industry's standard dummy text ever since the 1500s, when an unknown
-              printer took a galley of type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into electronic typesetting,
-              remaining essentially unchanged. It was popularised in the 1960s with the release of
-              Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              Fabricada com estrutura metálica robusta e componentes dimensionados para operação
+              severa, a Peneira Rotativa oferece elevada resistência mecânica, longa vida útil e
+              excelente estabilidade operacional. O acionamento rotativo contínuo reduz riscos de
+              entupimento, melhora o aproveitamento do material processado e contribui para uma
+              operação mais fluida e produtiva. O equipamento pode ser customizado com diferentes
+              diâmetros, comprimentos, tipos de chapas perfuradas e sistemas de acionamento,
+              adaptando-se às necessidades específicas de cada aplicação.
+            </span>
+
+            <span className="text-justify break-normal hyphens-auto">
+              Indicada para indústrias de mineração, cimenteiras, usinas de reciclagem e aplicações
+              ambientais, a Peneira Rotativa (Trommel) é uma solução versátil, durável e de fácil
+              manutenção, contribuindo para a otimização dos processos, redução de perdas e aumento
+              da produtividade operacional.
             </span>
           </div>
         </div>

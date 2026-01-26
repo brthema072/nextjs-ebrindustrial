@@ -21,23 +21,26 @@ const WheelWash = () => {
 
           <div className="flex flex-col items-center justify-center h-auto gap-4 px-4">
             <span className="text-justify break-normal hyphens-auto">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-              has been the industry's standard dummy text ever since the 1500s, when an unknown
-              printer took a galley of type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into electronic typesetting,
-              remaining essentially unchanged. It was popularised in the 1960s with the release of
-              Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              O <span className="font-bold">Lava Rodas EBR1296</span> é um equipamento robusto e
+              eficiente, desenvolvido para a lavagem e contenção de resíduos em rodas de caminhões,
+              carretas e veículos pesados antes do acesso a áreas controladas. Sua estrutura
+              metálica reforçada garante alta durabilidade mesmo em ambientes industriais severos,
+              enquanto o sistema de grelhas e rampas facilita a passagem dos veículos com segurança.
             </span>
 
             <span className="text-justify break-normal hyphens-auto">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-              has been the industry's standard dummy text ever since the 1500s, when an unknown
-              printer took a galley of type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into electronic typesetting,
-              remaining essentially unchanged. It was popularised in the 1960s with the release of
-              Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              Projetado para otimizar o controle ambiental, o Lava Rodas EBR1296 contribui
+              diretamente para a redução do carreamento de sujeira, lama e materiais particulados
+              para fora do pátio industrial, auxiliando no cumprimento de normas ambientais e na
+              preservação das vias internas e externas. O equipamento permite fácil manutenção,
+              limpeza e adaptação conforme a necessidade da operação.
+            </span>
+
+            <span className="text-justify break-normal hyphens-auto">
+              Ideal para indústrias, mineradoras, cimenteiras e obras de grande porte, o Lava Rodas
+              EBR1296 alia eficiência operacional, resistência e funcionalidade, tornando-se uma
+              solução confiável para o controle de resíduos e melhoria da organização do fluxo
+              logístico.
             </span>
           </div>
         </div>

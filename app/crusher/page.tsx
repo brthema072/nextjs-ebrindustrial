@@ -21,23 +21,27 @@ const crusher = () => {
 
           <div className="flex flex-col items-center justify-center h-auto gap-4 px-4">
             <span className="text-justify break-normal hyphens-auto">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-              has been the industry's standard dummy text ever since the 1500s, when an unknown
-              printer took a galley of type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into electronic typesetting,
-              remaining essentially unchanged. It was popularised in the 1960s with the release of
-              Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              Os <span className="font-bold">Britadores</span> são equipamentos essenciais nos
+              processos de redução de tamanho de materiais sólidos, amplamente utilizados nas
+              indústrias de mineração, construção civil, reciclagem e cimento. Projetados para
+              fragmentar rochas, concreto, resíduos e outros materiais de alta resistência, garantem
+              a produção de agregados com granulometria controlada e qualidade uniforme.
             </span>
 
             <span className="text-justify break-normal hyphens-auto">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-              has been the industry's standard dummy text ever since the 1500s, when an unknown
-              printer took a galley of type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into electronic typesetting,
-              remaining essentially unchanged. It was popularised in the 1960s with the release of
-              Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              Construídos com estrutura metálica robusta e componentes de alta resistência ao
+              desgaste, os britadores oferecem elevado desempenho operacional e longa vida útil
+              mesmo em condições severas de trabalho. Seu projeto técnico permite alta capacidade de
+              processamento, eficiência na cominuição do material e facilidade de manutenção,
+              podendo ser configurados em diferentes modelos e capacidades conforme a aplicação e a
+              demanda do processo produtivo.
+            </span>
+
+            <span className="text-justify break-normal hyphens-auto">
+              Os britadores contribuem para a otimização das etapas de britagem, redução de custos
+              operacionais e melhor aproveitamento do material processado. São indicados para
+              operações que exigem confiabilidade, produtividade e controle granulométrico,
+              atendendo às exigências técnicas e ambientais dos mais diversos segmentos industriais.
             </span>
           </div>
         </div>

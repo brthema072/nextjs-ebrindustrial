@@ -23,23 +23,28 @@ const MetalStructure = () => {
 
           <div className="flex flex-col items-center justify-center h-auto gap-4 px-4">
             <span className="text-justify break-normal hyphens-auto">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-              has been the industry's standard dummy text ever since the 1500s, when an unknown
-              printer took a galley of type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into electronic typesetting,
-              remaining essentially unchanged. It was popularised in the 1960s with the release of
-              Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              As <span className="font-bold">Estruturas Metálicas</span> são soluções projetadas
+              para suportar e integrar equipamentos, sistemas e instalações industriais, oferecendo
+              resistência, estabilidade e segurança estrutural. Desenvolvidas para atender
+              diferentes aplicações, são utilizadas em plantas industriais, usinas, galpões, bases
+              de equipamentos, passarelas e plataformas de acesso.
             </span>
 
             <span className="text-justify break-normal hyphens-auto">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-              has been the industry's standard dummy text ever since the 1500s, when an unknown
-              printer took a galley of type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into electronic typesetting,
-              remaining essentially unchanged. It was popularised in the 1960s with the release of
-              Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              Fabricadas com aço estrutural de alta qualidade, as estruturas metálicas são
+              dimensionadas conforme normas técnicas vigentes, garantindo precisão construtiva,
+              durabilidade e confiabilidade. Seu projeto permite montagem modular, facilidade de
+              transporte e instalação, além de flexibilidade para adequações conforme o layout e as
+              necessidades operacionais de cada cliente. Os processos de fabricação priorizam
+              soldagem controlada, acabamento adequado e proteção contra corrosão.
+            </span>
+
+            <span className="text-justify break-normal hyphens-auto">
+              As Estruturas Metálicas contribuem para a organização, segurança e eficiência das
+              operações industriais, possibilitando a integração otimizada dos equipamentos e a
+              ampliação de plantas com agilidade. São indicadas para indústrias de mineração,
+              cimenteiras, reciclagem e infraestrutura que demandam soluções estruturais robustas,
+              funcionais e alinhadas às exigências técnicas e operacionais.
             </span>
           </div>
         </div>

@@ -23,23 +23,29 @@ const ConstructionDemolitionWastRecycling = () => {
 
           <div className="flex flex-col items-center justify-center h-auto gap-4 px-4">
             <span className="text-justify break-normal hyphens-auto">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-              has been the industry's standard dummy text ever since the 1500s, when an unknown
-              printer took a galley of type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into electronic typesetting,
-              remaining essentially unchanged. It was popularised in the 1960s with the release of
-              Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              A <span className="font-bold">Usina de Reciclagem de Entulho RCC</span> é uma solução
+              completa para o processamento e reaproveitamento de resíduos da construção civil, como
+              concreto, argamassa, cerâmica, tijolos e pavimentos. Desenvolvida para operações
+              contínuas, a usina possibilita a transformação dos resíduos em agregados reciclados
+              com diferentes faixas granulométricas, promovendo eficiência produtiva e
+              sustentabilidade ambiental.
             </span>
 
             <span className="text-justify break-normal hyphens-auto">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-              has been the industry's standard dummy text ever since the 1500s, when an unknown
-              printer took a galley of type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into electronic typesetting,
-              remaining essentially unchanged. It was popularised in the 1960s with the release of
-              Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              Projetada com estrutura metálica robusta e layout funcional, a usina integra
+              equipamentos como alimentadores, britadores, peneiras e sistemas de transporte,
+              garantindo elevado desempenho operacional e segurança durante o processo. Sua
+              concepção técnica permite fácil manutenção, alta capacidade de processamento e
+              flexibilidade de configuração, adaptando-se às necessidades específicas de cada
+              operação e ao volume de material a ser processado.
+            </span>
+
+            <span className="text-justify break-normal hyphens-auto">
+              A Usina de Reciclagem de Entulho RCC contribui diretamente para a redução do descarte
+              em aterros, o reaproveitamento de materiais e o atendimento às normas ambientais
+              vigentes. É indicada para construtoras, usinas de reciclagem, mineradoras e órgãos
+              públicos que buscam otimizar processos, reduzir impactos ambientais e agregar valor
+              aos resíduos gerados em suas operações.
             </span>
           </div>
         </div>

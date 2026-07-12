@@ -53,6 +53,36 @@ const Body = () => {
           <Link href="/wheel-wash" target="_blank">
             <div className="bg-[url('/images/wheel-wash-card-3.png')] bg-cover rounded-lg shadow w-[320px] h-[180px]"></div>
           </Link>
+
+          <div className="rounded-lg shadow overflow-hidden w-[320px] h-[180px] bg-black">
+            <video
+              src="/images/wheel-wash-1.mp4"
+              className="w-full h-full object-cover"
+              controls
+              playsInline
+              preload="metadata"
+            />
+          </div>
+
+          <div className="rounded-lg shadow overflow-hidden w-[320px] h-[180px] bg-black">
+            <video
+              src="/images/wheel-wash-2.mp4"
+              className="w-full h-full object-cover"
+              controls
+              playsInline
+              preload="metadata"
+            />
+          </div>
+
+          <div className="rounded-lg shadow overflow-hidden w-[320px] h-[180px] bg-black">
+            <video
+              src="/images/wheel-wash-3.mp4"
+              className="w-full h-full object-cover"
+              controls
+              playsInline
+              preload="metadata"
+            />
+          </div>
         </div>
       </div>
     </>

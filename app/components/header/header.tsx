@@ -115,6 +115,15 @@ const Header = () => {
                       Proteções para Transportadores
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      href="/shaft-protection"
+                      onClick={handleRedirect}
+                      className="block px-4 py-2 hover:bg-gray-100"
+                    >
+                      Proteções de Eixos
+                    </Link>
+                  </li>
                 </ul>
               </div>
             </div>

@@ -1,4 +1,4 @@
-const MetalStructure = () => {
+const IndustrialSafetyGuarding = () => {
   return (
     <>
       <div className="pt-[105px] bg-[#F7F7F7]">
@@ -58,21 +58,21 @@ const MetalStructure = () => {
           </div>
         </div>
 
-        <div className="flex flex-row items-center justify-center h-auto gap-4 pt-8 pb-8">
+        <div className="flex flex-wrap items-center justify-center h-auto gap-4 pt-8 pb-8 px-4">
           <div className="bg-[url('/images/industrial-safety-guarding/image-card-1.jpg')] bg-cover rounded-lg shadow w-[320px] h-[180px]"></div>
           <div className="bg-[url('/images/industrial-safety-guarding/image-card-2.jpg')] bg-cover rounded-lg shadow w-[320px] h-[180px]"></div>
           <div className="bg-[url('/images/industrial-safety-guarding/image-card-3.jpg')] bg-cover rounded-lg shadow w-[320px] h-[180px]"></div>
           <div className="bg-[url('/images/industrial-safety-guarding/image-card-4.jpg')] bg-cover rounded-lg shadow w-[320px] h-[180px]"></div>
         </div>
 
-        <div className="flex flex-row items-center justify-center h-auto gap-4 pb-8">
+        <div className="flex flex-wrap items-center justify-center h-auto gap-4 pb-8 px-4">
           <div className="bg-[url('/images/industrial-safety-guarding/image-card-5.jpg')] bg-cover rounded-lg shadow w-[320px] h-[180px]"></div>
           <div className="bg-[url('/images/industrial-safety-guarding/image-card-6.jpg')] bg-cover rounded-lg shadow w-[320px] h-[180px]"></div>
           <div className="bg-[url('/images/industrial-safety-guarding/image-card-7.jpg')] bg-cover rounded-lg shadow w-[320px] h-[180px]"></div>
           <div className="bg-[url('/images/industrial-safety-guarding/image-card-8.jpg')] bg-cover rounded-lg shadow w-[320px] h-[180px]"></div>
         </div>
 
-        <div className="flex flex-row items-center justify-center h-auto gap-4 pb-8">
+        <div className="flex flex-wrap items-center justify-center h-auto gap-4 pb-8 px-4">
           <div className="bg-[url('/images/industrial-safety-guarding/image-card-11.jpg')] bg-cover rounded-lg shadow w-[320px] h-[180px]"></div>
           <div className="bg-[url('/images/industrial-safety-guarding/image-card-12.jpg')] bg-cover rounded-lg shadow w-[320px] h-[180px]"></div>
         </div>
@@ -81,4 +81,4 @@ const MetalStructure = () => {
   )
 }
 
-export default MetalStructure
+export default IndustrialSafetyGuarding

@@ -99,11 +99,11 @@ const Header = () => {
                   </li>
                   <li>
                     <Link
-                      href="/metal-structure"
+                      href="/industrial-safety-guarding"
                       onClick={handleRedirect}
                       className="block px-4 py-2 hover:bg-gray-100"
                     >
-                      Estruturas Metálicas
+                      Belgo Protec
                     </Link>
                   </li>
                 </ul>

@@ -23,7 +23,7 @@ const MetalStructure = () => {
 
           <div className="flex flex-col items-center justify-center h-auto gap-4 px-4">
             <span className="text-justify break-normal hyphens-auto">
-              As
+              As{' '}
               <span className="font-bold">
                 Grades Metálicas de Segurança Lateral (Sistema Belgo Protec)
               </span>
@@ -32,7 +32,7 @@ const MetalStructure = () => {
               industriais. Desenvolvido para atender rigorosamente às exigências normativas da
               NR-12, o sistema garante a integridade física dos operadores contra pontos de
               esmagamento, aprisionamento e contato mecânico acidental, promovendo um ambiente de
-              trabalho seguro e em conformidade com a legislação vigente
+              trabalho seguro e em conformidade com a legislação vigente.
             </span>
 
             <span className="text-justify break-normal hyphens-auto">

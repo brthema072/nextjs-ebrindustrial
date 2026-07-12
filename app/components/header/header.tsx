@@ -106,6 +106,15 @@ const Header = () => {
                       Belgo Protec
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      href="/conveyor-guards"
+                      onClick={handleRedirect}
+                      className="block px-4 py-2 hover:bg-gray-100"
+                    >
+                      Proteções para Transportadores
+                    </Link>
+                  </li>
                 </ul>
               </div>
             </div>

@@ -19,16 +19,12 @@ const ConveyorGuards = () => {
               width={528}
               height={396}
             />
-
-            <div className="flex flex-row items-center justify-center h-auto gap-4 pt-8 pb-8">
-              <div className="bg-[url('/images/conveyor-guards/image-card-1.jpg')] bg-cover rounded-lg shadow w-[260px] h-[180px]"></div>
-              <div className="bg-[url('/images/conveyor-guards/image-card-2.jpg')] bg-cover rounded-lg shadow w-[260px] h-[180px]"></div>
-            </div>
           </div>
 
           <div className="flex flex-col items-center justify-center h-auto gap-4 px-4">
             <span className="text-justify break-normal hyphens-auto">
-              As <span className="font-bold">Proteções para Transportadores (Conveyor Guards)</span>
+              As{' '}
+              <span className="font-bold">Proteções para Transportadores (Conveyor Guards) </span>
               são barreiras perimetrais de alto desempenho, em conformidade com a norma NR-12,
               projetadas para o enclausuramento de áreas de risco e isolamento de partes móveis.
               Fabricadas com painéis aramados modulares e estrutura robusta, garantem durabilidade,
@@ -57,6 +53,11 @@ const ConveyorGuards = () => {
               o máximo padrão de segurança industrial.
             </span>
           </div>
+        </div>
+
+        <div className="flex flex-wrap items-center justify-center h-auto gap-4 pt-8 pb-8">
+          <div className="bg-[url('/images/conveyor-guards/image-card-1.jpg')] bg-cover rounded-lg shadow w-[260px] h-[180px]"></div>
+          <div className="bg-[url('/images/conveyor-guards/image-card-2.jpg')] bg-cover rounded-lg shadow w-[260px] h-[180px]"></div>
         </div>
       </div>
     </>

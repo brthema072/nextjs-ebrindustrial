@@ -14,7 +14,7 @@ const IndustrialSafetyGuarding = () => {
         <div className="grid sm:grid-cols-1 md:grid-cols-2 py-10 gap-8 md:gap-0">
           <div className="flex flex-row items-center justify-center w-full">
             <img
-              src="/images/industrial-assemblies.jpeg"
+              src="/images/industrial-safety-guarding/image-1.jpeg"
               className="bg-cover rounded-sm shadow-md shadow-gray-400"
               width={528}
               height={396}

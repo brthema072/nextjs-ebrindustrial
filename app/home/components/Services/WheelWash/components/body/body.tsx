@@ -58,6 +58,7 @@ const Body = () => {
             <video
               src="/images/wheel-wash-1.mp4"
               className="w-full h-full object-cover"
+              muted
               controls
               playsInline
               preload="metadata"
@@ -68,6 +69,7 @@ const Body = () => {
             <video
               src="/images/wheel-wash-2.mp4"
               className="w-full h-full object-cover"
+              muted
               controls
               playsInline
               preload="metadata"
@@ -78,6 +80,7 @@ const Body = () => {
             <video
               src="/images/wheel-wash-3.mp4"
               className="w-full h-full object-cover"
+              muted
               controls
               playsInline
               preload="metadata"
